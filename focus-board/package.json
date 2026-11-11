@@ -1,0 +1,28 @@
+{
+  "name": "bb-plugin-focus-board",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "bbPluginSdk": ">=0.6.138"
+  },
+  "bb": {
+    "name": "Focus Board",
+    "description": "Open threads across all projects as tiles: what waits on you first, then what agents are working on.",
+    "branding": {
+      "icon": "LayoutGrid"
+    },
+    "server": "./server.ts",
+    "app": "./app.tsx"
+  },
+  "keywords": ["bb-plugin"],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@get-bb/plugin-sdk": "0.6.138",
+    "@types/react": "^19.0.0",
+    "react": "^19.0.0",
+    "typescript": "^5.9.3"
+  }
+}
